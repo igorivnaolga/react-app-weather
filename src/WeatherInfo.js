@@ -14,12 +14,12 @@ export default function WeatherInfo(props) {
       <div className="row mt-3">
         <div className="col-6">
           <img src={props.data.icon} />
-
           <span className="temperature">
             {Math.round(props.data.temperature)}
           </span>
           <span className="unit">°C</span>
         </div>
+
         <div className="col-6 mt-3">
           <ul>
             <li>Humidity: {props.data.humidity}%</li>
