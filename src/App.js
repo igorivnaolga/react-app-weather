@@ -14,6 +14,10 @@ export default function App() {
           rel="noreferrer"
         >
           open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a href="https://weatherapp-react-igorivna.netlify.app">
+          hosted on Netlify
         </a>
       </footer>
     </div>

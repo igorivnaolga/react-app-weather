@@ -3,7 +3,7 @@
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
   padding: 16px;
-  margin: 30px auto;
+  margin: 30px 30px;
 
   border-radius: 4px;
 }
@@ -31,8 +31,6 @@
   height: 64px;
   margin-right: 10px;
   display: inline-block;
-  position: relative;
-  bottom: -10px;
 }
 .Weather .temperature {
   font-weight: 400;
@@ -47,4 +45,8 @@
   font-weight: 400px;
   position: relative;
   top: -34px;
+}
+.Weather .unit a {
+  margin-left: 5px;
+  text-decoration: none;
 }
