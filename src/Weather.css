@@ -46,7 +46,7 @@
 @media (max-width: 600px) {
   .Weather {
     margin: 5px 5px;
-    padding: 5px;
+    padding: 10px;
     color: rgb(115, 115, 115);
   }
   .Weather .form-control {
