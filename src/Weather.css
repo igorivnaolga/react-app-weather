@@ -2,8 +2,8 @@
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
-  padding: 16px;
-  margin: 30px 30px;
+  padding: 20px;
+  margin: 20px auto;
 
   border-radius: 4px;
 }
@@ -42,7 +42,41 @@
   position: relative;
   top: -34px;
 }
-.Weather .unit a {
-  margin-left: 5px;
-  text-decoration: none;
+
+@media (max-width: 600px) {
+  .Weather {
+    margin: 5px 5px;
+    padding: 5px;
+  }
+  .Weather .form-control {
+    font-size: 0.8rem;
+  }
+  .Weather .btn-primary {
+    font-size: smaller;
+  }
+
+  .Weather h1 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0 0 0;
+  }
+  .Weather li {
+    font-size: 14px;
+  }
+  .Weather .temperature {
+    font-size: 46px;
+  }
+  .Weather .unit {
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    top: -25px;
+  }
+  .WeatherForecast-day {
+    font-size: 14px;
+  }
+
+  .WeatherForecast-temperatures {
+    font-size: 12px;
+  }
 }
